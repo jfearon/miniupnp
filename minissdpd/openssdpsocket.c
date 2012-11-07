@@ -30,7 +30,7 @@
  * Get the IPv4 address from a string
  * representing the address or the interface name
  */
-static in_addr_t
+in_addr_t
 GetIfAddrIPv4(const char * ifaddr)
 {
 	in_addr_t addr;
